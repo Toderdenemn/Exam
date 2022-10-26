@@ -1,1 +1,238 @@
+*{
+    font-family: 'Roboto', sans-serif;
+   
+    margin: 0 auto;
+    max-width: 1512px;
+    
 
+}
+.nav{
+    height: 44px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    
+}   
+.nav .nav-menu{
+    max-width: 1000px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    position: relative;
+ 
+    
+}
+.nav .nav-menu a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+#logo img{
+    width: 30px;
+    height: 44px;
+    z-index: 1;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+/* ---- */
+section{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-1{
+    margin-top: 60px;
+    width: 1000px;
+}
+.section-1 .sec1-text h1{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    font-size: 56px;
+    
+}
+.section-1 .sec1-text h2{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    font-size: 28px;
+    font-weight: 400;
+}
+.section-1 .sec1-text h3{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    font-size: 21px;
+    font-weight: 400;
+    color: #0066CC;
+}
+.section-1 img{
+    margin-top: 30px;
+    width: 665px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ---------------------- */
+
+.section-2{
+    margin-top: 60px;
+    background-color: black;
+}
+.section-2 .sec2-text h1{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    font-size: 56px;
+    color: white;
+    margin-top: 50px;
+    
+}
+.section-2 .sec2-text h2{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+}
+.section-2 .sec2-text h3{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    font-size: 21px;
+    font-weight: 400;
+    color: #0066CC;
+}
+.section-2 img{
+    margin-top: 30px;
+    width: 665px;
+    display: flex;
+    justify-content: center;
+}
+/* ------------------ */
+
+.section-3{
+    margin-top: 0px;
+    background-color: #FBFBFD;
+}
+.sec3-text .sec3-txt1{
+    display: flex;
+    flex-direction: row;
+}
+.section-3 .sec3-text h1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    padding-top: 0%;
+    display: flex;
+    font-size: 50px;
+    color: black;
+    margin-left: 0%;
+    position: relative;
+    right: 15px;
+    top: 3px;
+    
+}
+.section-3 .sec3-text h2{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    font-size: 28px;
+    font-weight: 400;
+    color: rgb(255, 119, 0);
+    margin-top: -40px;
+}
+.section-3 .sec3-text h3{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    font-size: 28px;
+    font-weight: 400;
+    color: black;
+}
+.section-3 img{
+    margin-top: 30px;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+}
+.sec3-txt1 img{
+    margin-right: 0%;
+    padding-right: 0%;
+    position: relative;
+    left: -3px;
+    top: -5px;
+}
+.watch{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    
+}
+.watch1{
+    width: 49.5%;
+    height: 624px;
+    background-image: url("images/div.png");
+}
+.watch2{
+    width: 49.5%;
+    height: 624px;
+    background-image: url("images/div-1.png");
+}
+.watch3{
+    width: 49.5%;
+    height: 624px;
+    background-image: url("images/div-2.png");
+}.watch4{
+    width: 49.5%;
+    height: 624px;
+    background-image: url("images/div-3.png");
+}.watch5{
+    width: 49.5%;
+    height: 624px;
+    background-image: url("images/div-4.png");
+}.watch6{
+    width: 49.5%;
+    height: 624px;
+    background-image: url("images/div-5.png");
+}
+
+
+.footer-back {
+    height: 600px;
+    background-color: #F5F5F7;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    position: relative;
+    top: -25px;
+    
+
+}
+.footer-inner p{
+    margin-top: 40px;
+    width: 60%;
+    color: #424245;
+    line-height: 30px;
+   font-weight: 300;
+}
